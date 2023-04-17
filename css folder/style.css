@@ -21,9 +21,11 @@ header, h1 {
     text-align: start;
 }
 
-header, nav, ul {
-    text-align: end;
+nav, ul {
+    list-style-type: none;
     color: white;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .about-me {
@@ -40,7 +42,6 @@ header, nav, ul {
     width: 28%; min-height: 250px;
     background-color: white;
     float: right;
-   
 }
 
 .services:nth-child(2) {
