@@ -1,0 +1,180 @@
+body {
+    font-family: Manrope;
+    color:black;
+    line-height: 1.4;
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.page-wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    width: 1280px;
+}
+
+header> h1 {
+    text-align: start;
+
+}
+
+.My-work{
+    padding: 30%;
+}
+
+.My-work-text{
+    text-align: center;
+}
+
+.header-text {
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center; 
+    padding: 10%;
+} 
+
+nav> ul {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-me {
+    background-color: white;
+    width: 1280px;
+}
+
+.what-i-can-do {
+    padding:10px;
+}
+
+.what-i-can-do, h2 {
+    text-align: center;
+    font-weight: bold;
+}
+#review{
+    background-color: black;
+    color: white;
+}
+#review> h3 {
+    text-align: center;
+
+}
+
+.image-container {
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+
+  .image {
+    flex-basis: calc(33% - 10px); 
+    max-width: 100%;
+    height: auto; 
+  }
+.container {
+    display: flex; 
+    justify-content: center;
+    gap: 20px; 
+  }
+
+  
+
+  .card {
+    flex-basis: 33%; 
+    padding: 20px;
+    background-color: #f2f2f2; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    text-align: center;
+  }
+
+  .btn {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #000; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; 
+  }
+
+  .btn:hover {
+    background-color: #333; 
+  }
+
+   
+.contact{
+    padding: 10%;
+    text-align: center;
+    
+}
+
+.heading{
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.sub-heading{
+    font-size: 0.8em;
+}
+    
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.text-side{
+    text-align: center;
+    padding:10%;
+}
+.text{
+    font-style: italic;
+    font-size: 0.71em;
+    
+}
+
+.services {
+    width: 28%; min-height: 250px;
+    background-color: #f1f1f1;
+    float: right;
+
+}
+#gallery {
+    line-height:0;
+    -webkit-column-count:3;
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:3;
+    column-gap:0px;
+ }
+
+ #gallery img {
+    width: 100% !important;
+    height: auto !important;
+ }
+
+.services:nth-child(2) {
+    background-color: white;
+}
+
+.services:nth-child(3) {
+    background-color: white;
+}
+
+
+ 

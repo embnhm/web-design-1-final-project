@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/css folder/style.css">
+    <link rel="stylesheet" href="css_folder/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
@@ -13,99 +13,124 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Portfolio</title>
 </head>
-
 <body>
-    <header>
-        <h1>Emilie Bonhomme</h1>
-        <nav>
-            <ul>
-                <a href="#about-me">About Me</a>
-                <a href="#services">Services</a>
-                <a href="#my-work">My Work</a>
-                <a href="#contact">Contact Me</a>
-            </ul>
-        </nav>
-        <div>
-            <img src="images/hero-banner-img.png">
+    <nav style="background-color: black; color: white; padding: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <h1 style="margin: 0;">Your Name</h1>
+          </div>
+          <div style="display: flex;">
+            <a href="#about-me" style="text-decoration: none; color: white; margin-right: 20px;">About Me</a>
+            <a href="#services" style="text-decoration: none; color: white; margin-right: 20px;">Services</a>
+            <a href="#my-work" style="text-decoration: none; color: white; margin-right: 20px;">My Work</a>
+            <a href="#contact-me" style="text-decoration: none; color: white;">Contact Me</a>
+          </div>
         </div>
-    </header>
-
+      </nav>
+      <section style="width: 100%; height: 100vh; overflow: hidden; position: relative;">
+        <img src="images/hero-banner-img.png"  style="width: 100%; object-fit: cover; object-position: center; height: 100vh;">
+      </section>
 <main>
-
+   
+   
+<div class="page-wrap">
     <section id="about-me" class="about-me">
-    <div>
-        <h1>Hello and Welcome to my bio!</h1>
-        <h2>About Me.</h2>
+    <div class="header-text">
+        <div>
+        <h2>Hello and Welcome to my bio!</h2>
+        <h3>About Me.</h3>
         <p1> My name is Emilie Bonhomme and I am currently a student of Graphic Design at Algonquin College.</p1>
         <br><br><p2>Through my studies, I have developed a solid foundation in design principles and have gained experience with a variety of design tools, including Adobe Creative Suite (Photoshop, Illustrator, InDesign), Figma, and Sketch.</p2>
         <br><br><p3>I am passionate about typography, layout design, and branding. I have also had the opportunity to experiment with other areas of design, such as motion graphics and web design.</p3>
     </div>
-    <img src="images/bio-pic.jpg" alt="bio-pic">
+    <div><img src="images/bio-pic.jpg" alt="bio-pic"></div>
+    </div>
 </section>
 
-<article>
-    <div class="what-i-can-do">
-    <h2>What I can do for you...</h2>
+<div class="what-i-can-do">
+    <h3>What I can do for you...</h3>
+    <div class="container">
+        <div class="card">
+          <h3>Logo Creation</h3>
+          <p>Your logo is the face of your brand and the first thing that potential customers will see, so it's crucial to make a great first 
+            impression. I can help create a logo that is both visually stunning and effective in representing your brand.</p>
+            <p>$X,XXX</p>
+            <a href="#learn=more" class="btn">Learn More</a>
+        </div>
+        <div class="card">
+            <h3>Web Design</h3>
+            <p>Your website is often the first interaction customers have with your business, so it's important to make a strong first impression. 
+                I can help you create a website that not only looks great but also functions flawlessly and engages your target audience.</p>
+            <p>$X,XXX</p>
+            <a href="#learn=more" class="btn">Learn More</a>
+        </div>
+        <div class="card">
+            <h3>Full Branding</h3>
+            <p>Your brand is much more than just a logo or a website. It's the overall image that your business presents to the world, including the look, feel, and voice of your brand. I can help you create a cohesive and impactful brand that resonates with your target audience and sets you apart from your competitors.</p>
+            <p>$X,XXX</p>
+            <a href="#learn=more" class="btn">Learn More</a>
+        </div>
+      </div>
+    <article>
+    
+</div>
+   </article>
 
-    <div class="services">
-        <h3>Logo Creation</h3>
-        <p>Your logo is the face of your brand and the first thing that potential customers will see, so it's crucial to make a great first impression. I can help create a logo that is both visually stunning and effective in representing your brand.</p>
-        <p>$X,XXX</p>
-        <a href="#learn-more">Learn more</a>
-    </div>
 
-    <div class="services">
-        <h3>Web Design</h3>
-        <p>Your website is often the first interaction customers have with your business, so it's important to make a strong first impression. I can help you create a website that not only looks great but also functions flawlessly and engages your target audience.</p>
-        <p>$X,XXX</p>
-        <a href="#learn=more">Learn more</a>
+<div id="My-work">
+    <h3 class="My-work-text">My Work</h3>
+    <p class="My-work-text">I have already worked on a range of projects during my time in school. These projects have allowed me to further develop my skills and apply what I have learned in a real-world setting.</p>
     </div>
-
-    <div class="services">
-        <h3>Full Branding</h3>
-        <p>Your brand is much more than just a logo or a website. It's the overall image that your business presents to the world, including the look, feel, and voice of your brand. I can help you create a cohesive and impactful brand that resonates with your target audience and sets you apart from your competitors.</p>
-        <p>$X,XXX</p>
-        <a href="#learn-more">Learn more</a>
-    </div>
-    </div>
-</article>
-
-<section id="My-work">
-    <div>
-        <h3>My Work</h3>
-        <p>I have already worked on a range of projects during my time in school. These projects have allowed me to further develop my skills and apply what I have learned in a real-world setting.</p>
-    </div>
-    <img src="images/portfolio-piece-1.jpg" alt="1">
-    <img src="images/portfolio-piece-2.jpg" alt="2">
-    <img src="images/portfolio-piece-3.jpg" alt="3">
-    <img src="images/portfolio-piece-4.jpg" alt="4">
-    <img src="images/portfolio-piece-5.jpg" alt="5">
-</section>
-
-<section id="review">
+    <div class="image-container">
+    <img src="images/portfolio-piece-1.jpg" alt="1" class="image">
+    <img src="images/portfolio-piece-2.jpg" alt="2" class="image">
+    <img src="images/portfolio-piece-3.jpg" alt="3" class="image">
+    <img src="images/portfolio-piece-4.jpg" alt="4" class="image">
+    <img src="images/portfolio-piece-5.jpg" alt="5" class="image">
+</div>
+</div>
+</div>
+</div>
+<div id="review">
     <h3>They tell it better than I ever could</h3>
-    <div> 
-        <p>“We were thrilled to have selected Emilie to redesign the software icons for our new brand. Their professionalism, skill, and attention to detail stood out among the candidates we considered.”</p>
-        <p>John Smith, project manager at Cannon Design</p>
+    <div class="parent">
+        <div class="text-side">
+        <p class="text">“We were thrilled to have selected Emilie to redesign the software icons for our new brand. Their professionalism, skill, and attention to detail stood out among the candidates we considered.”</p>
+        <p class="name">John Smith, project manager at Cannon Design</p>
     </div>
-
-    <div>
-        <p>“I had the pleasure of working with Emilie on a recent project, and I couldn't be more impressed with their work. Not only did they bring my vision to life, but they also added their own creative touches that took the project to the next level.”</p>
+    <div class="text-side">
+        <p class="text">“I had the pleasure of working with Emilie on a recent project, and I couldn't be more impressed with their work. Not only did they bring my vision to life, but they also added their own creative touches that took the project to the next level.”</p>
         <p>Jane Smith, project manager at Cannon Design</p>
     </div>
+        </div>
+</div>
+
+<div class="contact">
+<section id="Contact" alt="contact-me">
+    <p class="heading">I craft brands, websites, and experiences with great attention to detail & determination to tell your story.</p>
+    <p class="sub-heading">Interested in working together? Email me at EmilieBonhomme@email.com or check out more of my work on social media.</p>
+    <section style="text-align: center;">
+  <div style="display: flex; justify-content: center;">
+    <a href="https://www.facebook.com/" target="_blank">
+      <img src="/images/logos/fb.png" alt="Facebook" style="border-radius: 50%; width: 50px; height: 50px; margin: 10px;">
+    </a>
+    <a href="https://www.twitter.com/" target="_blank">
+      <img src="/images/logos/twitter.png" alt="Twitter" style="border-radius: 50%; width: 50px; height: 50px; margin: 10px;">
+    </a>
+    <a href="https://www.instagram.com/" target="_blank">
+      <img src="/images/logos/instagram.png" alt="Instagram" style="border-radius: 50%; width: 50px; height: 50px; margin: 10px;">
+    </a>
+  </div>
 </section>
 
-<section id="Contact" alt="contact-me">
-    <h3>I craft brands, websites, and experiences with great attention to detail & determination to tell your story.</h3>
-    <p>Interested in working together? Email me at EmilieBonhomme@email.com or check out more of my work on social media.</p>
-    <a href="images/instagram.svg"></a>
-    <a href="images/facebook.svg"></a>
-    <a href="images/twitter.svg"></a>
 </section>
+</div>
 
 </main>
-<footer>
-    <p><small>Emilie Bonhomme 2023</small></p>
-</footer>
+
+<footer style="background-color: black; color: white; padding: 20px; text-align: center;">
+    <span>&copy; 2023 Emilie Bonhomme. All rights reserved.</span>
+  </footer>
+  
 </body>
 </html>
